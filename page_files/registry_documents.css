@@ -1,0 +1,212 @@
+.edu-documents .document {
+    width         : 30em;
+    max-width     : 98%;
+    border        : 2px solid #3758a1;
+    border-radius : 1em;
+    margin        : 1rem auto 2rem;
+    padding       : 1em 2em;
+}
+
+.edu-documents .document > div {
+    margin-bottom : .5em;
+}
+
+.edu-documents .document label {
+    width : 9em;
+}
+
+.edu-documents .document #lastName,
+.edu-documents .document #firstName,
+.edu-documents .document #middleName {
+    width     : 20em;
+    max-width : 95%;
+}
+
+.edu-documents .document .documentSeries,
+.edu-documents .document .documentNumber {
+    width      : 10em;
+    text-align : center;
+}
+
+.edu-documents .document #captcha {
+    width      : 7em;
+    text-align : center;
+}
+
+.edu-documents .document label[for="captcha"] {
+    width : auto;
+}
+
+.edu-documents .document label[for="cbx-vip"] {
+    width     : auto;
+    font-size : .9em;
+}
+
+.edu-documents .document #skipMiddleName {
+    margin-left : 9.7em;
+}
+
+.edu-documents .document #skipMiddleName + label {
+    width : auto;
+}
+
+.edu-documents .document #captcha-div {
+    text-align : center;
+}
+
+.edu-documents .document button {
+}
+
+.edu-documents #vipRequestEmail {
+    width      : 100%;
+    text-align : center;
+}
+
+.edu-documents .document .sign-parameters > div {
+    margin-bottom : .5em;
+}
+
+.edu-documents .document .sign-parameters .file-name {
+    background-color : lightskyblue;
+    cursor           : pointer;
+}
+
+.edu-documents .document .sign-parameters label {
+}
+
+.edu-documents .document .sign-parameters input {
+    width : 10em;
+}
+
+.edu-documents .document .sign-parameters button {
+    display : inline-block !important;
+    margin  : 0;
+}
+
+.edu-documents .document .sign-parameters input[type=file] {
+    display : none;
+}
+
+.edu-documents .select2-container {
+    width : 100% !important;
+}
+
+#document-info {
+    width  : 95%;
+    margin : 0 auto;
+}
+
+#document-info table {
+    width     : 100%;
+    font-size : .8rem;
+}
+
+#document-info #stud-bilet-info td {
+    border         : none;
+    vertical-align : top;
+    padding        : .2rem .3rem;
+}
+
+#document-info #stud-bilet-info td:nth-child(1) {
+    width : 10em;
+}
+
+#document-info #stud-bilet-info td:nth-child(2) {
+    width : 25em;
+}
+
+#document-info #diplom-header {
+    font-weight   : bold;
+    text-align    : center;
+    margin-bottom : .5em;
+}
+
+#document-info #diplom-info td {
+    border         : 1px solid black;
+    vertical-align : middle;
+    padding        : .2rem .3rem;
+}
+
+#document-info #diplom-info tr td:first-child {
+    min-width : 10em;
+}
+
+#document-info .doc-active {
+    color : green;
+}
+
+#document-info .doc-cancel {
+    color : #cb2156;
+}
+
+#document-info .doc-term {
+    color : blue;
+}
+
+.ajax-message {
+    text-align    : center;
+    box-shadow    : inset 0 0 .5em darkgoldenrod;
+    border-radius : 0 .5em;
+    color         : #3758a1;
+    padding       : .2em;
+}
+
+#select2-documentType-results {
+    max-height : 400px;
+}
+
+#select2-documentType-results li {
+    font-size : .9rem;
+}
+
+.edu-documents #document-check-person {
+    display : none;
+}
+
+.edu-documents #sign-widget-parent {
+    width  : 33em;
+    height : 30em;
+    margin : 0 auto;
+}
+
+.edu-documents .document-loading {
+    display    : block;
+    font-size  : 4rem;
+    color      : darkblue;
+    margin     : 0 auto;
+    text-align : center;
+}
+
+.edu-documents input:disabled {
+    background-color : #dddddd;
+}
+
+.idgov {
+    width: 178px;
+    height: 48px;
+    display: block;
+}
+
+#qr-code-block {
+    text-align : center;
+}
+
+#qr-code-block > div {
+    font-size : 1rem;
+    color     : #cb2156;
+}
+
+@media only screen and (max-width : 30em) {
+    .edu-documents .document {
+        padding : .5em;
+        border  : none;
+    }
+
+    .edu-documents .document #skipMiddleName {
+        margin-left : 0;
+    }
+
+    .edu-documents .document #captcha-div + div {
+        text-align : center;
+    }
+}

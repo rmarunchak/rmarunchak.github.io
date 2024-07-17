@@ -1,0 +1,371 @@
+#toggle-low-vision {
+}
+
+#low-vision-panel {
+    display         : none;
+    padding         : .5em;
+    justify-content : space-around;
+}
+
+#low-vision-panel #low-vision-panel-color, #low-vision-panel #low-vision-panel-font {
+    display : flex;
+}
+
+#low-vision-panel #low-vision-panel-color button, #low-vision-panel #low-vision-panel-font button {
+    margin         : 0 .2rem;
+    text-transform : uppercase;
+}
+
+#low-vision-panel #low-vision-panel-font button {
+    justify-content : flex-end;
+    width           : 2.5rem;
+}
+
+#low-vision-panel #low-vision-panel-color #low-vision-panel-color-bw {
+    background-color : white;
+    color            : black;
+    border-color     : black;
+}
+
+#low-vision-panel #low-vision-panel-color #low-vision-panel-color-wb {
+    background-color : black;
+    color            : white;
+    border-color     : white;
+}
+
+#low-vision-panel #low-vision-panel-color #low-vision-panel-color-blue {
+    background-color : lightblue;
+    color            : darkblue;
+    border-color     : darkblue;
+}
+
+#low-vision-panel #low-vision-panel-color #low-vision-panel-color-beige {
+    background-color : beige;
+    color            : brown;
+    border-color     : brown;
+}
+
+html.low-vision #main-menu {
+    background : none;
+}
+
+html.low-vision.has_cataracta {
+    filter : brightness(1) blur(3px);
+}
+
+/* black on white */
+html.low-vision body {
+    background : white;
+    color      : black;
+}
+
+html.low-vision h1, html.low-vision h2, html.low-vision h3 {
+    color : black;
+}
+
+html.low-vision a {
+    color : black;
+}
+
+html.low-vision label {
+    color : black;
+}
+
+html.low-vision input, html.low-vision select, html.low-vision textarea, html.low-vision .select2-selection--single {
+    border : 1px solid black !important;
+}
+
+html.low-vision #main-menu #menu-logo {
+    background-color : white;
+    background-image : url(/img/logo_gray.png);
+}
+
+html.low-vision #main-menu .menu-item {
+    color : black;
+}
+
+html.low-vision #main-menu > a.menu-item-active,
+html.low-vision #main-menu > a.menu-item:hover {
+    border-color : black;
+}
+
+html.low-vision #main-menu .fa-facebook,
+html.low-vision #main-menu .fa-low-vision,
+html.low-vision #main-menu .fa-volume-up,
+html.low-vision #main-menu .fa-volume-mute {
+    color : black;
+}
+
+html.low-vision #registry-wrapper #registry-links > div.heximg > a {
+    background-image : url(/img/hexagon_light.png);
+}
+
+html.low-vision #registry-wrapper #registry-links > div.heximg > a:hover {
+    background-image : url(/img/hexagon_light.png);
+}
+
+html.low-vision #registry-wrapper #registry-links > div > a {
+    color : black;
+}
+
+html.low-vision #registry-wrapper #registry-links > div > a > .fas {
+    color : black !important;
+}
+
+html.low-vision #wrapper button, html.low-vision #wrapper .button, html.low-vision .buttons-panel button {
+    background : white;
+    border     : 1px solid black;
+    color      : black;
+    box-shadow : none;
+}
+
+html.low-vision #footer {
+    border-color : black;
+}
+
+html.low-vision #registry-wrapper #registry-panel {
+    border-color : black;
+}
+
+html.low-vision #news-wrapper .news {
+    border-color : black;
+}
+
+/* black on white */
+
+/* white on black */
+html.low-vision-wb body {
+    background : black;
+    color      : white;
+}
+
+html.low-vision-wb h1, html.low-vision-wb h2, html.low-vision-wb h3 {
+    color : white;
+}
+
+html.low-vision-wb a {
+    color : white;
+}
+
+html.low-vision-wb label {
+    color : white;
+}
+
+html.low-vision-wb input, html.low-vision-wb select, html.low-vision-wb textarea, html.low-vision-wb .select2-selection--single {
+    border : 1px solid white !important;
+}
+
+html.low-vision-wb #main-menu #menu-logo {
+    background-color : white;
+    background-image : url(/img/logo_gray.png);
+}
+
+html.low-vision-wb #main-menu .menu-item {
+    color : white;
+}
+
+html.low-vision-wb #main-menu > a.menu-item-active,
+html.low-vision-wb #main-menu > a.menu-item:hover {
+    border-color : white;
+}
+
+html.low-vision-wb #main-menu .fa-facebook,
+html.low-vision-wb #main-menu .fa-low-vision,
+html.low-vision-wb #main-menu .fa-volume-up,
+html.low-vision-wb #main-menu .fa-volume-mute {
+    color : white;
+}
+
+html.low-vision-wb #registry-wrapper #registry-links > div.heximg > a {
+    background-image : url(/img/hexagon_light.png);
+}
+
+html.low-vision-wb #registry-wrapper #registry-links > div.heximg > a:hover {
+    background-image : url(/img/hexagon_light.png);
+}
+
+html.low-vision-wb #registry-wrapper #registry-links > div > a {
+    color : black;
+}
+
+html.low-vision-wb #registry-wrapper #registry-links > div > a > .fas {
+    color : white !important;
+}
+
+html.low-vision-wb #wrapper button, html.low-vision-wb #wrapper .button, html.low-vision-wb .buttons-panel button {
+    background : black;
+    border     : 1px solid white;
+    color      : white;
+}
+
+html.low-vision-wb #footer {
+    border-color : white;
+}
+
+html.low-vision-wb #registry-wrapper #registry-panel {
+    border-color : white;
+}
+
+html.low-vision-wb #news-wrapper .news {
+    border-color : white;
+}
+
+/* white on black */
+
+/* blue */
+html.low-vision-blue body {
+    background : lightblue;
+    color      : darkblue;
+}
+
+html.low-vision-blue h1, html.low-vision-blue h2, html.low-vision-blue h3 {
+    color : darkblue;
+}
+
+html.low-vision-blue a {
+    color : darkblue;
+}
+
+html.low-vision-blue label {
+    color : darkblue;
+}
+
+html.low-vision-blue input, html.low-vision-blue select, html.low-vision-blue textarea, html.low-vision-blue .select2-selection--single {
+    border : 1px solid darkblue !important;
+}
+
+html.low-vision-blue #main-menu #menu-logo {
+    background-color : transparent;
+    background-image : url(/img/logo.png);
+}
+
+html.low-vision-blue #main-menu .menu-item {
+    color : darkblue;
+}
+
+html.low-vision-blue #main-menu > a.menu-item-active,
+html.low-vision-blue #main-menu > a.menu-item:hover {
+    border-color : darkblue;
+}
+
+html.low-vision-blue #main-menu .fa-facebook,
+html.low-vision-blue #main-menu .fa-low-vision,
+html.low-vision-blue #main-menu .fa-volume-up,
+html.low-vision-blue #main-menu .fa-volume-mute {
+    color : darkblue;
+}
+
+html.low-vision-blue #registry-wrapper #registry-links > div.heximg > a {
+    background-image : url(/img/hexagon_blue.png);
+}
+
+html.low-vision-blue #registry-wrapper #registry-links > div.heximg > a:hover {
+    background-image : url(/img/hexagon_blue.png);
+}
+
+html.low-vision-blue #registry-wrapper #registry-links > div > a {
+    color : darkblue;
+}
+
+html.low-vision-blue #registry-wrapper #registry-links > div > a > .fas {
+    color : darkblue !important;
+}
+
+html.low-vision-blue #wrapper button, html.low-vision-blue #wrapper .button, html.low-vision-blue .buttons-panel button {
+    background : none;
+    border     : 1px solid darkblue;
+    color      : darkblue;
+}
+
+html.low-vision-blue #footer {
+    border-color : darkblue;
+}
+
+html.low-vision-blue #registry-wrapper #registry-panel {
+    border-color : darkblue;
+}
+
+html.low-vision-blue #news-wrapper .news {
+    border-color : darkblue;
+}
+
+/* blue */
+
+/* beige */
+html.low-vision-beige body {
+    background : beige;
+    color      : brown;
+}
+
+html.low-vision-beige h1, html.low-vision-beige h2, html.low-vision-beige h3 {
+    color : brown;
+}
+
+html.low-vision-beige a {
+    color : brown;
+}
+
+html.low-vision-beige label {
+    color : brown;
+}
+
+html.low-vision-beige input, html.low-vision-beige select, html.low-vision-beige textarea, html.low-vision-beige .select2-selection--single {
+    border : 1px solid brown !important;
+}
+
+html.low-vision-beige #main-menu #menu-logo {
+    background-color : transparent;
+    background-image : url(/img/logo_gray.png);
+}
+
+html.low-vision-beige #main-menu .menu-item {
+    color : brown;
+}
+
+html.low-vision-beige #main-menu > a.menu-item-active,
+html.low-vision-beige #main-menu > a.menu-item:hover {
+    border-color : brown;
+}
+
+html.low-vision-beige #main-menu .fa-facebook,
+html.low-vision-beige #main-menu .fa-low-vision,
+html.low-vision-beige #main-menu .fa-volume-up,
+html.low-vision-beige #main-menu .fa-volume-mute {
+    color : brown;
+}
+
+html.low-vision-beige #registry-wrapper #registry-links > div.heximg > a {
+    background-image : url(/img/hexagon_light.png);
+}
+
+html.low-vision-beige #registry-wrapper #registry-links > div.heximg > a:hover {
+    background-image : url(/img/hexagon_light.png);
+}
+
+html.low-vision-beige #registry-wrapper #registry-links > div > a {
+    color : brown;
+}
+
+html.low-vision-beige #registry-wrapper #registry-links > div > a > .fas {
+    color : brown !important;
+}
+
+html.low-vision-beige #wrapper button, html.low-vision-beige #wrapper .button, html.low-vision-beige .buttons-panel button {
+    background : beige;
+    border     : 1px solid brown;
+    color      : brown;
+}
+
+html.low-vision-beige #footer {
+    border-color : brown;
+}
+
+html.low-vision-beige #registry-wrapper #registry-panel {
+    border-color : brown;
+}
+
+html.low-vision-beige #news-wrapper .news {
+    border-color : brown;
+}
+
+/* beige */
